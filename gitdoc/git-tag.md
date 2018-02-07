@@ -16,7 +16,7 @@
 ##### 创建标签含备注
 
 ```bash
-    git tag -a v1.1.0 -'tag message'
+    git tag -a v1.1.0 -m'tag message'
     git tag v1.1.0
 ```
 
@@ -24,7 +24,7 @@
 ##### 补充某次提交标签含备注
 
 ```bash
-    git tag -a v1.1.0 46b3024(commit id） -m'tag message'
+    git tag -a v1.1.0 46b3024(commit id） -m'tag message'
     git tag v1.1.0
 ```
 
@@ -34,19 +34,19 @@
     git show v1.1.0
 ```
 
-##### 推送到远程
+##### 推送到远程
 
 ```bash
     git push origin v1.1.0
 ```
 
-##### 一次推送所有tag到远程
+##### 一次推送所有tag到远程
 
 ```bash
     git push origin --tags
 ```
 
-##### 回滚Tag
+##### 回滚Tag
 
 ##### 查看某个tag 快照 获取 commit id 3b192c7
 
