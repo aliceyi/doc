@@ -48,7 +48,7 @@
 
 ##### 回滚Tag
 
-##### 查看某个tag 快照 获取 commit id 3b192c7
+##### 查看某个tag 快照 获取 commit id 3b192c7
 
 ```bash
     git tag
