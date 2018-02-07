@@ -21,7 +21,7 @@
 ```
 
 
-##### 补充某次提交标签含备注
+##### 补充某次提交标签含备注
 
 ```bash
     git tag -a v1.1.0 46b3024(commit id） -m'tag message'
