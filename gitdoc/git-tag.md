@@ -20,12 +20,24 @@
     git tag v1.1.0
 ```
 
-
 ##### 补充某次提交标签含备注
 
 ```bash
     git tag -a v1.1.0 46b3024(commit id） -m'tag message'
     git tag v1.1.0
+```
+
+##### 删除tag
+
+```bash
+    git tag -d v1.1.0
+```
+
+##### 删除远程tag
+
+```bash
+    git push origin :v1.1.0
+    git push origin --delete tag v1.1.0
 ```
 
 ##### 查看某个标签
